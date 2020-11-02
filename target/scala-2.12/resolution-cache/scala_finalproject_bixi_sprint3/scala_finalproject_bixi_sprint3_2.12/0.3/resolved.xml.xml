@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="scala_finalproject_bixi_sprint3"
+		module="scala_finalproject_bixi_sprint3_2.12"
+		revision="0.3"
+		status="integration"
+		publication="20201028173322"
+	>
+		<description>
+		Scala_FinalProject_Bixi_Sprint3
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="scala_finalproject_bixi_sprint3_2.12" type="pom" ext="pom" conf="pom"/>
+		<artifact name="scala_finalproject_bixi_sprint3_2.12" type="jar" ext="jar" conf="compile"/>
+		<artifact name="scala_finalproject_bixi_sprint3_2.12" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+		<artifact name="scala_finalproject_bixi_sprint3_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.0" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="au.com.bytecode" name="opencsv" rev="2.4" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hive" name="hive-jdbc" rev="1.1.0-cdh5.16.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.12" rev="2.4.5" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.12" rev="2.4.5" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming_2.12" rev="2.4.5" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.12" rev="2.4.5" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-mllib_2.12" rev="2.4.5" conf="compile->default(compile)"/>
+		<dependency org="com.github.agourlay" name="json-2-csv_2.12" rev="0.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.github.pathikrit" name="better-files_2.12" rev="3.9.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka-clients" rev="2.3.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka_2.12" rev="2.5.1" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

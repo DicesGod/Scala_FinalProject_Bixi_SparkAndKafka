@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6777c466-e6ce-4079-8298-74761a5ce4b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jWWcj7FRfn5S6ZhNkA5bdvxq37" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/ca/mcit/input/enrichedstationinfo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/ca/mcit/input/enrichedstationinfo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="ConsumerPlayground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.input.trip.ConsumerPlayground" />
+      <module name="Scala_FinalProject_Bixi_Sprint3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.input.trip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.Main" />
+      <module name="Scala_FinalProject_Bixi_Sprint3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.kafka.Producer" />
+      <module name="Scala_FinalProject_Bixi_Sprint3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.input.trip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadEnrichedStationInfo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.input.storeEnrichedStationInfo.ReadEnrichedStationInfo" />
+      <module name="Scala_FinalProject_Bixi_Sprint3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.input.storeEnrichedStationInfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkStreaming" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.input.trip.SparkStreaming" />
+      <module name="Scala_FinalProject_Bixi_Sprint3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.input.trip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerPlayground" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.ReadEnrichedStationInfo" />
+      <item itemvalue="Application.SparkStreaming" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SparkStreaming" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.ConsumerPlayground" />
+        <item itemvalue="Application.ReadEnrichedStationInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Scala_FinalProject_Bixi_Sprint3" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="scala_kafka_finalproject_bixi_sprint3 [file:/Users/minhle/Desktop/Projects/Scala_KAFKA_FinalProject_Bixi_Sprint3/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Scala_FinalProject_Bixi_Sprint3-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3185033817894" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3973740947" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../zk" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6777c466-e6ce-4079-8298-74761a5ce4b3" name="Default Changelist" comment="" />
+      <created>1603920408660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603920408660</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="57" key="#Main" timestamp="1604005343046">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="395" y="57" key="#Main/0.23.1440.770@0.23.1440.770" timestamp="1604005343046" />
+    <state x="395" y="57" key="#Producer" timestamp="1603932916623">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="395" y="57" key="#Producer/0.23.1440.770@0.23.1440.770" timestamp="1603932916623" />
+    <state x="458" y="159" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604102077889">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="458" y="159" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1604102077889" />
+    <state x="184" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604085943588">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="184" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.770@0.23.1440.770" timestamp="1604085943588" />
+    <state x="241" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604006885845">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="241" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.770@0.23.1440.770" timestamp="1604006885845" />
+    <state x="484" y="261" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604357546524">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="484" y="261" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.770@0.23.1440.770" timestamp="1604357546524" />
+    <state x="484" y="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604006479039">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="484" y="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.770@0.23.1440.770" timestamp="1604006479039" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1604358257860">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1604358257860" />
+    <state width="1398" height="249" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1604289542113" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1604358257859">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1604358257859" />
+    <state width="1398" height="249" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1604289542112" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1604358257859">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1604358257859" />
+    <state width="1398" height="249" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1604289542112" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1604358257859">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1604358257859" />
+    <state width="1398" height="249" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1604289542113" />
+    <state width="1398" height="233" key="GridCell.Tab.1.bottom" timestamp="1604017882095">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.1.bottom/0.23.1440.770@0.23.1440.770" timestamp="1604017882095" />
+    <state width="1398" height="233" key="GridCell.Tab.1.center" timestamp="1604017882095">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.1.center/0.23.1440.770@0.23.1440.770" timestamp="1604017882095" />
+    <state width="1398" height="233" key="GridCell.Tab.1.left" timestamp="1604017882095">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.1.left/0.23.1440.770@0.23.1440.770" timestamp="1604017882095" />
+    <state width="1398" height="233" key="GridCell.Tab.1.right" timestamp="1604017882095">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.1.right/0.23.1440.770@0.23.1440.770" timestamp="1604017882095" />
+    <state x="439" y="262" key="NewModule_or_Project.wizard" timestamp="1603920429176">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="439" y="262" key="NewModule_or_Project.wizard/0.23.1440.770@0.23.1440.770" timestamp="1603920429176" />
+    <state x="374" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1604354922304">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="374" y="230" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1604354922304" />
+    <state x="375" y="160" width="689" height="472" key="find.popup" timestamp="1604007797010">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="375" y="160" width="689" height="472" key="find.popup/0.23.1440.770@0.23.1440.770" timestamp="1604007797010" />
+  </component>
+</project>

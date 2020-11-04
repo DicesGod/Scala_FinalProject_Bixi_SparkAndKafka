@@ -32,9 +32,7 @@ object EnrichData{
     //Create enriched CSV file
     enriched_info.coalesce (1).write.mode (SaveMode.Overwrite).csv ("Feed/enriched_sta_sys_info/")
 
-    val getListOfFiles = new GetListOfFiles
-
-    new File (getListOfFiles.getListOfFiles (new File ("Feed/enriched_sta_sys_info/"), List ("csv") ).mkString)
+    new File (GetListOfFiles.getListOfFiles (new File ("Feed/enriched_sta_sys_info/"), List ("csv") ).mkString)
     .renameTo (new File ("Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv") )
 
     spark.stop ()

@@ -8,9 +8,12 @@ object FileManagement {
   def uploadFiles(): Unit = {
     try {
       println("File Management:")
-      val filePath = new Path("/user/fall2019/minhle/final_project/feed_data/enriched_station_system_information/enriched_sta_sys_info.csv")
-      val srcPath = new Path("/Users/minhle/Desktop/Projects/Scala_KAFKA_FinalProject_Bixi_Sprint3/Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv")
-      val dstPath = new Path("/user/fall2019/minhle/final_project/feed_data/enriched_station_system_information")
+      val filePath = new Path("/user/fall2019/minhle/final_project/feed_data/" +
+        "enriched_station_system_information/enriched_sta_sys_info.csv")
+      val srcPath = new Path("/Users/minhle/Desktop/Projects/Scala_KAFKA_FinalProject_Bixi_Sprint3/" +
+        "Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv")
+      val dstPath = new Path("/user/fall2019/minhle/final_project/feed_data/" +
+        "enriched_station_system_information")
       uploadFile("enriched_sta_sys_info", filePath, srcPath, dstPath)
     }
     catch {

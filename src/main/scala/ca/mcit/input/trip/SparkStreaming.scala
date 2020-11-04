@@ -58,17 +58,20 @@ object SparkStreaming extends App {
 
         val enriched_info = spark.sql (
           """SELECT `start_date`,`start_station_code`,
-            |`end_date`,`end_station_code`,
             |`duration_sec`,`is_member`,
-            |_c0 as system_id,_c1 as timezone, _c2 as station_id, _c3 as name,
-            |_c4 as short_name, _c5 as lat, _c6 as lon, _c7 as capacity
-            |FROM trip t JOIN enrichedStaInfo e
-            |where t.start_station_code = e._c4
+            |e1._c0 as system_id,e1._c1 as timezone,e1._c2 as station_id, e1._c3 as name,
+            |e1._c4 as short_name, e1._c5 as lat, e1._c6 as lon, e1._c7 as capacity,
+            |`end_date`,`end_station_code`,
+            |e2._c0 as end_system_id,e2._c1 as end_timezone, e2._c2 as end_station_id,e2._c3 as end_name,
+            |e2._c4 as end_short_name, e2._c5 as end_lat, e2._c6 as end_lon, e2._c7 as end_capacity
+            |FROM trip t
+            |JOIN enrichedStaInfo e1 ON t.start_station_code = e1._c4
+            |JOIN enrichedStaInfo e2 ON t.end_station_code = e2._c4
             |"""
             .stripMargin)
 
-        enriched_info.coalesce (1).write.mode (SaveMode.Append).csv ("Result/")
+        enriched_info.coalesce (1).write.mode (SaveMode.Append)
+          .csv ("hdfs://quickstart.cloudera/user/fall2019/minhle/final_project/Result/")
       }
   }
-  sparkStreaming()
 }

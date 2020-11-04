@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6777c466-e6ce-4079-8298-74761a5ce4b3" name="Default Changelist" comment="" />
+    <list default="true" id="6777c466-e6ce-4079-8298-74761a5ce4b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/.part-00000-953cf017-3f36-4f25-901c-a99bd915d405-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/station_information.json" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_information.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/system_information.json" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_information.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/.part-00000-8b685186-20c0-4a7f-b214-d17c3c65f2e0-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/.part-00000-f0530002-d38d-474f-b018-fd81710f8258-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/.part-00000-fe2bb43b-d52a-4dd6-af98-39d2a7e18760-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/part-00000-8b685186-20c0-4a7f-b214-d17c3c65f2e0-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/part-00000-f0530002-d38d-474f-b018-fd81710f8258-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/part-00000-fe2bb43b-d52a-4dd6-af98-39d2a7e18760-c000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/storeEnrichedStationInfo/EnrichData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/storeEnrichedStationInfo/EnrichData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/storeEnrichedStationInfo/FileManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/storeEnrichedStationInfo/FileManagement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/storeEnrichedStationInfo/GetListOfFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/storeEnrichedStationInfo/GetListOfFiles.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/trip/SparkStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/trip/SparkStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/trip/TripProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/input/trip/TripProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/storeEnrichedStationInfo/EnrichData$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/storeEnrichedStationInfo/EnrichData$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/storeEnrichedStationInfo/FileManagement$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/storeEnrichedStationInfo/FileManagement$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/storeEnrichedStationInfo/GetListOfFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/storeEnrichedStationInfo/GetListOfFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/SparkStreaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/SparkStreaming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/SparkStreaming$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/SparkStreaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/SparkStreaming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/TripProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/input/trip/TripProducer$.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +81,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.mcit.input.trip" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/ca/mcit/input/enrichedstationinfo" />
     </key>
@@ -203,10 +231,10 @@
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="395" y="57" key="#Producer/0.23.1440.770@0.23.1440.770" timestamp="1603932916623" />
-    <state x="458" y="159" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604102077889">
+    <state x="458" y="159" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604360787155">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
-    <state x="458" y="159" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1604102077889" />
+    <state x="458" y="159" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1604360787155" />
     <state x="184" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604085943588">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
@@ -223,25 +251,25 @@
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="484" y="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.770@0.23.1440.770" timestamp="1604006479039" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1604358257860">
+    <state width="1398" height="145" key="GridCell.Tab.0.bottom" timestamp="1604531193725">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1604358257860" />
+    <state width="1398" height="145" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1604531193725" />
     <state width="1398" height="249" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1604289542113" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1604358257859">
+    <state width="1398" height="145" key="GridCell.Tab.0.center" timestamp="1604531193724">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1604358257859" />
+    <state width="1398" height="145" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1604531193724" />
     <state width="1398" height="249" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1604289542112" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1604358257859">
+    <state width="1398" height="145" key="GridCell.Tab.0.left" timestamp="1604531193724">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1604358257859" />
+    <state width="1398" height="145" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1604531193724" />
     <state width="1398" height="249" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1604289542112" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1604358257859">
+    <state width="1398" height="145" key="GridCell.Tab.0.right" timestamp="1604531193725">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1604358257859" />
+    <state width="1398" height="145" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1604531193725" />
     <state width="1398" height="249" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1604289542113" />
     <state width="1398" height="233" key="GridCell.Tab.1.bottom" timestamp="1604017882095">
       <screen x="0" y="23" width="1440" height="770" />
@@ -263,13 +291,17 @@
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="439" y="262" key="NewModule_or_Project.wizard/0.23.1440.770@0.23.1440.770" timestamp="1603920429176" />
-    <state x="374" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1604354922304">
+    <state x="374" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1604528402050">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
-    <state x="374" y="230" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1604354922304" />
+    <state x="374" y="230" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1604528402050" />
     <state x="375" y="160" width="689" height="472" key="find.popup" timestamp="1604007797010">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="375" y="160" width="689" height="472" key="find.popup/0.23.1440.770@0.23.1440.770" timestamp="1604007797010" />
+    <state x="385" y="117" width="670" height="676" key="search.everywhere.popup" timestamp="1604462803363">
+      <screen x="0" y="23" width="1440" height="770" />
+    </state>
+    <state x="385" y="117" width="670" height="676" key="search.everywhere.popup/0.23.1440.770@0.23.1440.770" timestamp="1604462803363" />
   </component>
 </project>
